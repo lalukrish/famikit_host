@@ -16,7 +16,7 @@ mongoose.connect(process.env.MONGOURL, {
 });
 
 mongoose.connection.on("connected", () => {
-  console.log("connected");
+  console.log("connectedd");
 });
 
 mongoose.connection.on("error", (err) => {
